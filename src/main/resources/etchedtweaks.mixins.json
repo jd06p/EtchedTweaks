@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.karma.etchedtweaks.mixin",
+  "plugin": "dev.karma.etchedtweaks.mixin.OptionalMixinPlugin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "etchedtweaks.refmap.json",
+  "mixins": ["etched.SoundCloudSourceMixin", "etched.EtchingRetryMixin", "etched.JukeboxUpgradeLimitMixin", "etched.StorageSoundAccessor", "etched.StorageSoundStopMixin"],
+  "client": ["etched.SoundCloudPlaybackMixin", "etched.SoundCloudPreparedMixin", "etched.SoundCloudChannelMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
